@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:wght@500&family=Roboto+Mono:wght@200&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto Mono', monospace;
+	color: #ded9dc;
 }
+
 
 .container{
 	background-image: linear-gradient(to right, #C297AA, #477BD1);
@@ -25,16 +30,22 @@
 	text-align: center;
 	padding: 30px 0px;
 }
+
 .icon{
-	font-size: 30px;
+	font-size: 16px;
 	text-align: center;
 	padding: 10px;
 }
-.icon a{
+.icon a i{
 	margin: 0 8px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	line-height: 43px;
 }
 .icon a i{
 	transition: all 0.3s linear;
+	color: white;
 }
 .icon a:hover i{
 	transform: scale(1.4);
